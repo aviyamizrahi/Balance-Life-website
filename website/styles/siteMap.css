@@ -1,0 +1,236 @@
+﻿body {
+    direction: rtl;
+    background-color: #F0EFE9;
+    font-family: "Assistant", sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Assistant", sans-serif;
+}
+header nav {
+    height: 60px;
+    display: flex;
+    padding: 10px 40px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F0EFE9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo img {
+    width: 112px;
+    height: 50px;
+    margin-right: 0px;
+}
+
+header nav ul {
+    margin-left: 300px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+header nav ul li  {
+    display: inline-block;
+    margin: 0;
+}
+
+header nav ul li a {
+    display: block;
+    background-color: #F0EFE9;
+    color: black;
+    width:120px;
+    height: 60px;
+    padding-top: 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+header nav ul li a:hover {
+    background-color: #F3EEFE;
+}
+
+header nav ul li ul {
+    display: none;
+    position: absolute;
+}
+header nav ul li:hover ul {
+    display: block;
+    width: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+header .notActive {
+    cursor: not-allowed;
+    color: black;
+}
+
+.breadCrumb-nav {
+    background-color: #F0EFE9;
+
+}
+.breadCrumb-nav ol {
+    margin-right: 20px;
+}
+
+.breadCrumb-nav ol li {
+    display: inline-block;
+    margin-top: 86px;
+    margin-right: 6px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.breadCrumb-nav ol li:after {
+    content: ">";
+}
+.breadCrumb-nav ol li:last-child:after {
+    content: "";
+}
+
+.breadCrumb-nav ol li a {
+    color: black;
+    text-decoration: none;
+}
+.breadCrumb-nav ol li a:hover, .breadCrumb-nav ol li a:active {
+    color: #A392BA;
+    text-decoration: underline;
+}
+
+h1{
+    text-align: center;
+    line-height: 100%;
+    margin-top: 20px;
+    margin-right: 100px;
+    font-size: 40px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 10px;
+}
+h2{
+    text-align: right;
+    margin-right: 10px;
+    font-size: 22px;
+    font-weight: 400;
+    color: black;
+}
+main {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+.mapsection{
+    background-color: #FAF9FB;
+    width:180px;
+    height: 140px;
+    border: 1px solid #A392BA;
+    padding:20px 40px;
+    line-height:120%;
+    box-shadow: 0 3px 2px #8887ac;
+    margin-top: 10px;
+    margin-right: 80px;
+    font-size: 18px;
+}
+
+.rashi {
+    margin-top: 40px;
+}
+
+.no a:hover{
+    background-color: #F3EEFE;
+}
+nav ul li{
+    margin-top: 80px;
+    font-size: 18px;
+    display:inline-block;
+    margin-right: 30px;
+}
+ .rashi ul li a {
+    text-decoration: none;
+}
+
+ 
+.rashi ul li{
+    font-size: 16px;
+}
+
+.rashi ul {
+    margin-right:10px;
+}
+.map {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    width: 300px;
+    margin: 20px;
+    box-sizing: border-box;
+}
+a.not{
+    cursor: not-allowed;
+    color: black;
+}
+.yes{
+    color: black;
+}
+
+.yes:hover {
+    color: #A392BA;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #FAF9FB;
+}
+
+footer nav {
+    background-color: #FAF9FB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+    width: 100%;
+
+}
+
+footer nav ul {
+    list-style: none;
+    display: flex;
+
+}
+
+footer nav ul li {
+    display: inline-block;
+    margin: 0;
+}
+
+footer nav ul li a {
+    display: block;
+    background-color: transparent;
+    color: black;
+    width:120px;
+    height: 60px;
+    padding-top: 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: lighter;
+}
+footer nav ul li a:hover {
+    text-decoration: underline;
+}
+footer nav img {
+    margin: 18px;
+}
+
+footer nav .freepik {
+    font-size: 14px;
+    font-weight: lighter;
+}
