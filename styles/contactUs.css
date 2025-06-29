@@ -1,10 +1,12 @@
-﻿body {
+ @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
+
+
+body {
     direction: rtl;
     background-color: #F0EFE9;
     font-family: "Assistant", sans-serif;
 }
 
- @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
 *{
     margin: 0;
     padding: 0;
